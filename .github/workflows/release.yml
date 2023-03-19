@@ -42,7 +42,7 @@ jobs:
           mv xui-release x-ui
           mkdir bin
           cd bin
-          wget https://github.com/NidukaAkalanka/Xray-core/releases/latest/download/Xray-linux-amd64.zip
+          wget https://github.com/efakhimi/Xray-core/releases/latest/download/Xray-linux-amd64.zip
           unzip Xray-linux-amd64.zip
           rm -f Xray-linux-amd64.zip
           mv xray xray-linux-amd64
@@ -85,7 +85,7 @@ jobs:
           mv xui-release x-ui
           mkdir bin
           cd bin
-          wget https://github.com/NidukaAkalanka/Xray-core/releases/latest/download/Xray-linux-arm64.zip
+          wget https://github.com/efakhimi/Xray-core/releases/latest/download/Xray-linux-arm64.zip
           unzip Xray-linux-arm64.zip
           rm -f Xray-linux-arm64.zip
           mv xray xray-linux-arm64
@@ -128,7 +128,7 @@ jobs:
           mv xui-release x-ui
           mkdir bin
           cd bin
-          wget https://github.com/NidukaAkalanka/Xray-core/releases/latest/download/Xray-linux-s390x.zip
+          wget https://github.com/efakhimi/Xray-core/releases/latest/download/Xray-linux-s390x.zip
           unzip Xray-linux-s390x.zip
           rm -f Xray-linux-s390x.zip geoip.dat geosite.dat
           wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat

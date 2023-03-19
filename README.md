@@ -3,7 +3,7 @@
 
 Another Translated-to-English Version of X-UI; with some of more advanced features implemented. 
  
-A furthur development from [my previous repo](https://github.com/NidukaAkalanka/x-ui-english.old) and
+A furthur development from [my previous repo](https://github.com/efakhimi/x-ui-english.old) and
 kind a fork from [taffychan's x-ui](https://github.com/taffychan/x-ui) + [hossinasaadi's x-ui](https://github.com/hossinasaadi/x-ui), which all are forked from [vaxilu's awesome project](https://github.com/vaxilu/x-ui/) : a Multi-protocol Multi-user Xray Panel
 
 # Features
@@ -34,7 +34,7 @@ kind a fork from [taffychan's x-ui](https://github.com/taffychan/x-ui) + [hossin
 # Single Command Install & upgrade
 
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/efakhimi/x-ui-english/master/install.sh)
 ````
 
 ## Manual install & upgrade
@@ -138,7 +138,7 @@ There is almost nothing to explain abount Multi-User thing. You will have separa
 **Outcome:**
 - After about 10 seconds past disconnecting the PC, he will regain the connection for his mobile.
 
-**If it is a fresh installation, these functions, specially IP limiting, will work flowlessly. But if yours is an upgrading, they miight not work while giving XRAY status : not running. In such cases, please refer [here](https://github.com/NidukaAkalanka/x-ui-english/discussions/27)**
+**If it is a fresh installation, these functions, specially IP limiting, will work flowlessly. But if yours is an upgrading, they miight not work while giving XRAY status : not running. In such cases, please refer [here](https://github.com/efakhimi/x-ui-english/discussions/27)**
 
 ## Suggested OSs
 
