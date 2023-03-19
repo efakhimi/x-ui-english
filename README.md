@@ -210,3 +210,5 @@ If you are looking to modify Telegram Bot functions, the Bot's code lives at `/w
 - Error while swithcing Xray version
 ### Fixed on 0.2.1.2 --
 - ip.gs error causing IP scraping errors
+### Fixed on 0.2.1.3 --
+- ip.gs replaced by ip.sb

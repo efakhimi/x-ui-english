@@ -131,8 +131,8 @@ acme_standalone(){
         wg-quick down wgcf >/dev/null 2>&1
     fi
     
-    ipv4=$(curl -s4m8 ip.gs)
-    ipv6=$(curl -s6m8 ip.gs)
+    ipv4=$(curl -s4m8 ip.sb)
+    ipv6=$(curl -s6m8 ip.sb)
     
     echo ""
     yellow "When using port 80 application mode, first point your domain name to your server's public IP address. Otherwise the certificate application will be failed!"
@@ -182,8 +182,8 @@ acme_standalone(){
 
 acme_cfapiTLD(){
     [[ -z $(~/.acme.sh/acme.sh -v 2>/dev/null) ]] && red "Unpacking ACME.SH, Getting ready..." && exit 1
-    ipv4=$(curl -s4m8 ip.gs)
-    ipv6=$(curl -s6m8 ip.gs)
+    ipv4=$(curl -s4m8 ip.sb)
+    ipv6=$(curl -s6m8 ip.sb)
     read -rp "Please enter the domain name to issue certificate (sub.example.com): " domain
     if [[ $(echo ${domain:0-2}) =~ cf|ga|gq|ml|tk ]]; then
         red "Detected a Freenom free domain. Since the Cloudflare API does not support it, it is impossible!"
@@ -206,8 +206,8 @@ acme_cfapiTLD(){
 
 acme_cfapiNTLD(){
     [[ -z $(~/.acme.sh/acme.sh -v 2>/dev/null) ]] && red "Unpacking ACME.SH, Getting ready..." && exit 1
-    ipv4=$(curl -s4m8 ip.gs)
-    ipv6=$(curl -s6m8 ip.gs)
+    ipv4=$(curl -s4m8 ip.sb)
+    ipv6=$(curl -s6m8 ip.sb)
     read -rp "Please enter the main domain name that requires the application certificate (input format: example.com): " domain
     [[ -z $domain ]] && red "Given domain is invalid！" && exit 1
     if [[ $(echo ${domain:0-2}) =~ cf|ga|gq|ml|tk ]]; then
